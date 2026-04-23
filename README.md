@@ -27,8 +27,9 @@ Before diving into AI and automation, I spent years building authentication, aut
 | Project | Description |
 |---------|-------------|
 | **[tama](https://github.com/danielcherubini/tama)** ⭐1 | High-performance, Rust-native cross-platform Service Orchestrator for local AI binaries. Auto-discovery, model routing, and plugin architecture. |
+| **[pi-provider-tama](https://github.com/danielcherubini/pi-provider-tama)** | Pi plugin for Tama local AI server auto-discovery and model configuration. |
+| **[opencode-tama](https://github.com/danielcherubini/opencode-tama)** | OpenCode plugin for Tama local AI server auto-discovery and model configuration. |
 | **[DeltaCoder](https://github.com/danielcherubini/DeltaCoder)** | DeltaCoder-9B: LoRA SFT to add reliable JSON tool-calling to Qwen3.5-9B for agentic coding in OpenCode/Pi/Cline. |
-| **[opencode-koji](https://github.com/danielcherubini/opencode-koji)** | OpenCode plugin for Koji local AI server auto-discovery and model configuration. |
 
 ### 🏠 Smart Home & 3D Printing
 
