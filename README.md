@@ -46,8 +46,4 @@ Before diving into AI and automation, I spent years building authentication, aut
 | **[pi-dracula](https://github.com/danielcherubini/pi-dracula)** | Dracula theme for the Pi coding agent — dark mode that doesn't hurt your eyes. |
 | **[dotfiles](https://github.com/danielcherubini/dotfiles)** | My system configuration — Neovim, shell, and all the things. |
 
----
 
-## Activity
-
-![GitHub Contribution Graph](https://ghchart.rshah.org/danielcherubini)
