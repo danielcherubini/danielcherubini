@@ -1,50 +1,93 @@
 # Hi, I'm Daniel
 
-📍 Oslo, Norway · 🔧 Home Automation & AI Tools Engineer
+AI platform engineer in Oslo. I build the infrastructure that makes AI adoption work in practice — LLM gateways, observability, governance, cost controls, and the open-source tooling on top.
 
-I engineer tools that connect AI to the real world. My work spans three domains:
+Day job: Senior Software Engineer for AI Enablement. Side projects: local AI orchestration, agentic coding tooling, and smart-home automation.
 
-**Local AI Infrastructure** — Service orchestrators ([tama](https://github.com/danielcherubini/tama)), model providers, and fine-tuning pipelines ([DeltaCoder](https://github.com/danielcherubini/DeltaCoder)) for running AI models locally and reliably.
-
-**Smart Home & 3D Printing** — Deep integrations between Klipper/Moonraker printers, Home Assistant, and custom automation tools ([elegoo-homeassistant](https://github.com/danielcherubini/elegoo-homeassistant)).
-
-**Developer Tooling** — Extensions and plugins for the Pi coding agent ecosystem and OpenCode.
-
-Before diving into AI and automation, I spent years building authentication, authorization, and payment systems at scale — at DNB (Norway's largest bank), TIDAL (co-founded their security team), and Inspera (led Infrastructure & Security). Now I'm focused on automation: local AI, smart homes, and agentic tooling.
+📍 Oslo, Norway
 
 ---
 
-## Tech Stack
+## What I'm building
 
-[![Rust](https://img.shields.io/badge/-Rust-CE372B?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/) [![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev/) [![Home Assistant](https://img.shields.io/badge/-Home%20Assistant-41BDF5?style=flat-square&logo=home-assistant&logoColor=white)](https://www.home-assistant.io/) [![Klipper](https://img.shields.io/badge/-Klipper-FF6C00?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjwvc3ZnPg==)](https://www.klipper3d.org/) [![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnome-terminal&logoColor=white)](https://en.wikipedia.org/wiki/Unix_shell)
+**Day job — enterprise AI:**
+
+- Built an AI platform from scratch — open-source LLMs on Nvidia GPU clusters via GCP, with full observability through LiteLLM.
+- Intelligent request routing that cut cloud AI costs by ~80% by directing suitable workloads to in-house models.
+- AI governance framework — GDPR/PII policies, guardrails, and company-wide agent routing.
+- Plugins for [OpenCode](https://github.com/sst/opencode) and [Pi](https://github.com/badlogic/pi-mono) that route through internal infrastructure.
+
+**Side projects:**
+
+- **[tama](https://github.com/danielcherubini/tama)** — Rust-native orchestrator for local AI binaries with auto-discovery, model routing, and a web control plane.
+- **[DeltaCoder-9B](https://huggingface.co/danielcherubini/Qwen3.5-DeltaCoder-9B)** — LoRA fine-tune of Qwen3.5-9B for reliable JSON tool-calling in agentic coding.
+- **Smart home & 3D printing** — bidirectional Home Assistant integration for Elegoo printers, Klipper/Moonraker automation.
+- **Agentic coding tooling** — extensions, themes, and providers for the Pi coding agent ecosystem.
+
+Previously: Software Engineering Manager, Tech Lead, and security co-founder across fintech, SaaS, insurance, and media.
 
 ---
 
-## Featured Projects
+## Tech stack
 
-### 🤖 Local AI & Agentic Coding
+[![Rust](https://img.shields.io/badge/-Rust-CE372B?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev/)
+[![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://www.java.com/)
+[![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)](https://vuejs.org/)
+[![LiteLLM](https://img.shields.io/badge/-LiteLLM-000000?style=flat-square&logo=litellm&logoColor=white)](https://github.com/BerriAI/litellm)
+[![Home Assistant](https://img.shields.io/badge/-Home%20Assistant-41BDF5?style=flat-square&logo=home-assistant&logoColor=white)](https://www.home-assistant.io/)
 
-| Project | Description |
-|---------|-------------|
-| **[tama](https://github.com/danielcherubini/tama)** ⭐1 | High-performance, Rust-native cross-platform Service Orchestrator for local AI binaries. Auto-discovery, model routing, and plugin architecture. |
-| **[pi-provider-tama](https://github.com/danielcherubini/pi-provider-tama)** | Pi plugin for Tama local AI server auto-discovery and model configuration. |
-| **[opencode-tama](https://github.com/danielcherubini/opencode-tama)** | OpenCode plugin for Tama local AI server auto-discovery and model configuration. |
-| **[DeltaCoder](https://github.com/danielcherubini/DeltaCoder)** | DeltaCoder-9B: LoRA SFT to add reliable JSON tool-calling to Qwen3.5-9B for agentic coding in OpenCode/Pi/Cline. |
+---
 
-### 🏠 Smart Home & 3D Printing
+## Featured projects
 
-| Project | Description |
-|---------|-------------|
-| **[elegoo-homeassistant](https://github.com/danielcherubini/elegoo-homeassistant)** ⭐135 | A Home Assistant integration for Elegoo printers using SDCP. Full bidirectional control of your 3D printer from HA. |
-| **[klipper](https://github.com/danielcherubini/klipper)** | Klipper firmware — the high-performance 3D printer controller. |
-| **[HVAC-Control](https://github.com/danielcherubini/HVAC-Control)** | Home Assistant automation for smart HVAC control with energy optimization. |
+### 🤖 Local AI & agentic coding
 
-### 🛠️ Developer Tooling
+| Project | What it does |
+| --- | --- |
+| **[tama](https://github.com/danielcherubini/tama)** | Rust-native local AI server — auto-discovery, model routing, and a web control plane. |
+| **[Qwen3.5-DeltaCoder-9B](https://huggingface.co/danielcherubini/Qwen3.5-DeltaCoder-9B)** | LoRA fine-tune of Qwen3.5-9B for reliable JSON tool-calling in agentic coding. |
+| **[pi-archimedes](https://github.com/danielcherubini/pi-archimedes)** | Meta-extension for the Pi coding agent TUI — visual polish and context. |
 
-| Project | Description |
-|---------|-------------|
-| **[express-vue](https://github.com/express-vue/express-vue)** ⭐1304 | Vue rendering engine for Express.js — use .Vue files as templates. A thing in its day, built before Vue SSR was mainstream. *(dormant)* |
-| **[pi-dracula](https://github.com/danielcherubini/pi-dracula)** | Dracula theme for the Pi coding agent — dark mode that doesn't hurt your eyes. |
-| **[dotfiles](https://github.com/danielcherubini/dotfiles)** | My system configuration — Neovim, shell, and all the things. |
+### 🔌 AI Providers for Pi & OpenCode
 
+| Project | What it does |
+| --- | --- |
+| **[pi-provider-tama](https://github.com/danielcherubini/pi-provider-tama)** | Auto-discovers models from a local tama server and registers them as a Pi provider. |
+| **[pi-provider-litellm](https://github.com/danielcherubini/pi-provider-litellm)** | Auto-discovers models, MCP tools, and skills from a LiteLLM proxy for Pi. |
+| **[pi-provider-vertex-anthropic](https://github.com/danielcherubini/pi-provider-vertex-anthropic)** | Claude models via Google Cloud Vertex AI for Pi. |
+| **[opencode-tama](https://github.com/danielcherubini/opencode-tama)** | Tama auto-discovery and model configuration for OpenCode. |
+| **[opencode-provider-litellm](https://github.com/danielcherubini/opencode-provider-litellm)** | LiteLLM proxy integration for OpenCode — zero-config model discovery. |
+| **[opencode-lmstudio](https://github.com/danielcherubini/opencode-lmstudio)** | Enhanced LM Studio support for OpenCode with auto-detection and dynamic model discovery. |
 
+### 🏠 Smart home & 3D printing
+
+| Project | What it does |
+| --- | --- |
+| **[elegoo-homeassistant](https://github.com/danielcherubini/elegoo-homeassistant)** | Bidirectional Home Assistant integration for Elegoo printers via SDCP. |
+| **[fork-a-slicer](https://github.com/danielcherubini/fork-a-slicer)** | Step-by-step plan for forking OrcaSlicer and adding Bambu printer support. |
+| **[HVAC-Control](https://github.com/danielcherubini/HVAC-Control)** | Home Assistant automation for HVAC with energy optimization. |
+
+### 🛠️ Developer tooling
+
+| Project | What it does |
+| --- | --- |
+| **[express-vue](https://github.com/express-vue/express-vue)** | Vue rendering engine for Express.js — predates Vue SSR being mainstream. |
+| **[pi-dracula](https://github.com/danielcherubini/pi-dracula)** | Dracula theme for the Pi coding agent. |
+| **[dotfiles](https://github.com/danielcherubini/dotfiles)** | My system config — Neovim, shell, the works. |
+
+---
+
+## GitHub stats
+
+![Metrics](https://github.com/danielcherubini/danielcherubini/blob/main/github-metrics.svg?raw=true)
+
+---
+
+## Find me elsewhere
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danielcherubini/)
+[![HuggingFace](https://img.shields.io/badge/-HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/danielcherubini)
