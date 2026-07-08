@@ -10,15 +10,7 @@ Day job: Senior Software Engineer for AI Enablement. Side projects: local AI orc
 
 ## What I'm building
 
-**Day job — enterprise AI:**
-
-- Built an AI platform from scratch — open-source LLMs on Nvidia GPU clusters via GCP, with full observability through LiteLLM.
-- Intelligent request routing that cut cloud AI costs by ~80% by directing suitable workloads to in-house models.
-- AI governance framework — GDPR/PII policies, guardrails, and company-wide agent routing.
 - Plugins for [OpenCode](https://github.com/sst/opencode) and [Pi](https://github.com/badlogic/pi-mono) that route through internal infrastructure.
-
-**Side projects:**
-
 - **[tama](https://github.com/danielcherubini/tama)** — Rust-native orchestrator for local AI binaries with auto-discovery, model routing, and a web control plane.
 - **[DeltaCoder-9B](https://huggingface.co/danielcherubini/Qwen3.5-DeltaCoder-9B)** — LoRA fine-tune of Qwen3.5-9B for reliable JSON tool-calling in agentic coding.
 - **Smart home & 3D printing** — bidirectional Home Assistant integration for Elegoo printers, Klipper/Moonraker automation.
